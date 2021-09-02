@@ -1,0 +1,226 @@
+/* changes affecting all pages are toward the top */
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    margin-top: 0%;
+}
+
+article {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.205) ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    justify-content: flex-start;
+}
+
+footer h4 {
+    font-size: smaller;
+    font-weight: normal;
+    align-self: center;
+}
+
+footer img {
+    margin-top: 2vh;
+    height: 4vh;
+    padding-left: 2vw;
+    height: 4vh;
+}
+
+p {
+    font-size: smaller;
+    font-style: italic;
+    font-size: 1.5vh;
+}
+
+h3 {
+    font-size: 2vh;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1{
+    text-align: center;
+    font-size: 8vh;
+    margin-bottom: 2vh;
+
+}
+
+header h3 {
+    margin-top: 0vw;
+    font-size: 1.5vh;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+section h3 {
+    font-weight: bolder;
+    text-shadow: 2px 1px #00000031;
+}
+
+/* changes made to individual classes are below here */
+section.home {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav.home {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-style: italic;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+/* hover effect for links */
+a.link1:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1px solid black;  
+}
+
+section.about{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;  
+    justify-items: start;
+    grid-gap: 2%;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+ p.about {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 80%;
+}
+
+p.blog {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+/*adjusting about page for desktop width*/
+@media screen and (min-width: 1020px) {
+    img.about {
+        height: 40vh;
+        width: 40vw;
+    }
+    section h4.about {
+        font-size: 200%;
+    }
+    p.about {
+        font-size: 140%;
+    }
+    section.about {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    nav.contact {
+        font-size: 1%;
+    }
+}
+    
+section h4.about {
+    align-self: end;
+    margin-bottom: 2px;
+    font-weight: lighter;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.205);
+}
+
+nav.about {
+    margin-top: 10%;
+}
+
+div.contact {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 2%, rgba(250,255,254,1) 100%);
+    color: white;
+    height: 80vh;
+    width: 100vw;  
+}
+
+h1.contact {
+    padding-left: 2%;
+}
+
+h1.contact#top {
+    font-size: 5vh;
+    height: 30vh;
+    margin: 0vh;
+}
+
+h1.contact#middle {
+    font-size: 5vh;
+    height: 30vh;
+    margin: 0vh;
+    font-style: italic;
+}
+
+h1.contact#bottom {
+    font-size: 5vh;
+    height: 30vh;
+    margin: 0vh;
+    text-decoration: underline;
+}
+
+nav.contact {
+    margin-bottom: 3vw;
+    font-size: 200%;
+}
+
+/* hover effect over blog paragraphs */
+section.blog p:hover {
+    outline: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+/* main images */
+img.about {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 25vh;
+    width: 40vw;
+    margin-bottom: 3%;
+    border-radius: 3%;
+}
+
+img.home {
+    height: 35vh;
+    border-radius: 3%;
+}
+
+img.blog {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 3%;
+}
+
+p.blog {
+    width:fit-content;
+}
