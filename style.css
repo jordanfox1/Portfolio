@@ -125,28 +125,7 @@ section.about{
 p.blog {
     border-bottom: 1px solid rgba(0, 0, 0, 0.205);
 }
-
-/*adjusting about page for desktop width*/
-@media screen and (min-width: 1020px) {
-    img.about {
-        height: 40vh;
-        width: 40vw;
-    }
-    section h4.about {
-        font-size: 200%;
-    }
-    p.about {
-        font-size: 140%;
-    }
-    section.about {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    nav.contact {
-        font-size: 1%;
-    }
-}
-    
+   
 section h4.about {
     align-self: end;
     margin-bottom: 2px;
@@ -204,8 +183,8 @@ section.blog p:hover {
 img.about {
     grid-row-start: 2;
     grid-row-end: 2;
-    height: 25vh;
-    width: 40vw;
+    height: 20vh;
+    width: 35vw;
     margin-bottom: 3%;
     border-radius: 3%;
 }
@@ -223,4 +202,25 @@ img.blog {
 
 p.blog {
     width:fit-content;
+}
+
+/*adjusting about page for desktop width*/
+@media screen and (min-width: 1000px) {
+    img.about {
+        height: 40vh;
+        width: 30vw;
+    }
+    section h4.about {
+        font-size: 200%;
+    }
+    p.about {
+        font-size: 140%;
+    }
+    section.about {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    nav.contact {
+        font-size: 1%;
+    }
 }
