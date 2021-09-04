@@ -84,6 +84,7 @@ section p {
 section h3 {
     font-weight: bolder;
     text-shadow: 2px 1px #00000031;
+    font-size: 180%;
 }
 
 /* changes made to individual classes are below here */
@@ -100,6 +101,20 @@ nav.home {
     justify-content: space-between;
     font-style: italic;
     border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+nav.contact {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-style: italic;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav.about {
+    margin-top: 10%;
 }
 
 /* hover effect for links */
@@ -133,10 +148,6 @@ section h4.about {
     text-shadow: 2px 1px rgba(0, 0, 0, 0.205);
 }
 
-nav.about {
-    margin-top: 10%;
-}
-
 /* background gradient on contact page */
 div.contact {
     background: rgb(2,0,36);
@@ -168,11 +179,6 @@ h1.contact#bottom {
     height: 30vh;
     margin: 0vh;
     text-decoration: underline;
-}
-
-nav.contact {
-    margin-bottom: 3vw;
-    font-size: 200%;
 }
 
 /* hover effect over blog paragraphs */
