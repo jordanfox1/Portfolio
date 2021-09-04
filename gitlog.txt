@@ -1,3 +1,9 @@
+commit adbd91382f67f54b500d538a17c9f81ea8a3d901
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Sat Sep 4 15:55:46 2021 +1000
+
+    fixed more element sizes
+
 commit 6e3dcf3f35f0d98cccb18e761ae9b17e1d2bf17f
 Author: jordanfox1 <jordanfox9415@gmail.com>
 Date:   Sat Sep 4 14:38:16 2021 +1000
