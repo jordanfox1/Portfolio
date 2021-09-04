@@ -1,0 +1,41 @@
+commit 6e3dcf3f35f0d98cccb18e761ae9b17e1d2bf17f
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Sat Sep 4 14:38:16 2021 +1000
+
+    fixed contact page footer and text size
+
+commit 72e925cc989c650651b1571aa67b3795da5875e0
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Sat Sep 4 13:26:12 2021 +1000
+
+    changed blog page desktop display
+
+commit d57c4698b64d098e9fe87da8ac4f1cfc1736a21f
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Fri Sep 3 11:31:08 2021 +1000
+
+    changed contact page css
+
+commit dbda50156fb444560b02684008549079a89ff80d
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Fri Sep 3 11:11:41 2021 +1000
+
+    Update 1
+
+commit d997070be5b67408a42fd1ac64122d51ebdbdb47
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Fri Sep 3 09:25:47 2021 +1000
+
+    added image descriptions
+
+commit ab1e137ea12897bd6bd82ec29843d7bbec2c9080
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Fri Sep 3 09:20:10 2021 +1000
+
+    adding all files
+
+commit 5f77b9cffeddf0247ee5e18a9ac1318f0aafc24f
+Author: jordanfox1 <jordanfox9415@gmail.com>
+Date:   Fri Sep 3 09:16:40 2021 +1000
+
+    first commit

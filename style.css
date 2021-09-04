@@ -36,6 +36,10 @@ footer h4 {
     align-self: center;
 }
 
+footer h4.contact {
+    font-size: 160%;
+}
+
 footer img {
     margin-top: 2vh;
     height: 4vh;
@@ -50,11 +54,12 @@ p {
 }
 
 h3 {
-    font-size: 2vh;
+    font-size: 100%;
 }
 
 h4 {
     margin-bottom: 0;
+    font-size: 30%;
 }
 
 a {
@@ -103,6 +108,14 @@ nav.home {
     border-bottom: 1px solid rgba(0, 0, 0, 0.205);
 }
 
+nav.blog {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-style: italic;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+
 nav.contact {
     display: flex;
     width: 70%;
@@ -111,9 +124,15 @@ nav.contact {
     border-bottom: 1px solid rgba(0, 0, 0, 0.205);
     margin-top: 2%;
     margin-bottom: 2%;
+    font-size: 300%;
 }
 
 nav.about {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-style: italic;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
     margin-top: 10%;
 }
 
@@ -123,12 +142,13 @@ a.link1:hover {
     outline: 1px solid black;  
 }
 
-section.about{
+section.about {
     display: grid; 
     grid-template-columns: 1fr 1fr;  
     justify-items: start;
     grid-gap: 2%;
     border-top: 1px solid rgba(0, 0, 0, 0.205);
+    width: 100%;
 }
 
 p.about {
@@ -146,6 +166,7 @@ section h4.about {
     margin-bottom: 2px;
     font-weight: lighter;
     text-shadow: 2px 1px rgba(0, 0, 0, 0.205);
+    font-size: 100%;
 }
 
 /* background gradient on contact page */
@@ -209,6 +230,7 @@ img.blog {
 
 p.blog {
     width:fit-content;
+    font-size: 80%;
 }
 
 /*adjusting about and blog pages for desktop width*/
@@ -234,6 +256,10 @@ p.blog {
 
     p.blog {
         font-size: 85%;
+    }
+
+    nav.contact {
+        font-size: 150%;
     }
 
     section.blog h3 {
